@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/help_toolbar"
+            android:id="@+id/toolbarHelp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/help_about_background"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is Quack?"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_about"
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/help_about_background"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How to use Quack?"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1- Drag the navigation drawer from the very left or press the menu button in the upper left corner on the home page."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2- Select &quot;Settings&quot;."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3- Select &quot;Select a date&quot; to modify the date of earthquakes to be shown (optional)."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4- Select &quot;Minimum magnitude&quot; to modify the minimum magnitude of earthquakes to be shown (optional)."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5- Select &quot;Maximum magnitude&quot; to modify the maximum magnitude of earthquakes to be shown (optional)."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6- Select &quot;Select a start date&quot; to modify the start date of tsunamis to be shown (optional)."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7- Select &quot;Select an end date&quot; to modify the end date of tsnuamis to be shown (optional)."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8- When you are done with settings, press the &quot;Set&quot; button in the bottom before rushing to the home page."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9-  To change settings back to default, press the &quot;Default&quot; swtich."
+                    android:textSize="20sp"
+                    android:textColor="#26A69A"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/help_about_background"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Things to consider"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Its recommended to set the date range for tsunamis between 7 and 30 days."
+                android:textSize="20sp"
+                android:textColor="#26A69A"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sometimes it takes a few seconds for the data to be retrieved."
+                android:textSize="20sp"
+                android:textColor="#26A69A"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are no records for earthquakes or tsnumais before 01/Jan/1933."
+                android:textSize="20sp"
+                android:textColor="#26A69A"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enjoy the app!"
+                android:textSize="20sp"
+                android:textColor="#26A69A"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

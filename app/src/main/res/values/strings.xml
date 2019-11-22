@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quack</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="near_the">near the</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="help_about">Quack is an earthquake and tsunami search engine
+        that tells you the location, time and magnitude of them. It also gets
+        its data from the United States Geological Survey (USGS) website. </string>
+</resources>
